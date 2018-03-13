@@ -1,0 +1,171 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  height: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.05);
+
+}
+
+
+.logo {
+  display: block;
+  width: 83px;
+  height: 23px;
+  background-image: url(images/logo.svg);
+  background-size: cover;
+  margin: auto;
+}
+
+
+p {
+  margin-top: 21px;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+
+h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.Lending {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.1);
+  background-color: white;
+}
+
+.section  {
+  position: relative;
+  width: 100%;
+  height: 860px;
+  overflow: hidden;
+}
+
+.right, .center {
+  background: #879696;
+}
+
+.textLeft {
+  position: absolute;
+  top: 142px;
+  width: 480px;
+  left: 160px;
+}
+
+.textRight {
+  position: absolute;
+  top: 142px;
+  width: 480px;
+  right: 200px;
+}
+
+.textCenter {
+  position: absolute;
+  top: 142px;
+  width: 763px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.textCenter nav {
+  margin-top: 65px;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textCenter nav a{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.big {
+  width: 300px;
+  height: 50px;
+  line-height: 49px;
+  font-size: 17px;
+}
+
+.blue {
+  background-color: #77FFE1;
+  border-color: black;
+  color: rgba(0,0,0,.6);
+}
+
+.but {
+  display: block;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.small {
+    width: 780px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-decoration: underline;
+    color: #FFFFFF;
+  }
+
+.picRight {
+  position: absolute;
+  top: 173px;
+  right: 160px;
+  width: 530px;
+  height: 1199px;
+  background-image: url(images/work.png);
+  background-size: cover;
+}
+
+
+.picRight2 {
+  position: absolute;
+  top: 340px;
+  right: 40px;
+  width: 759px;
+  height: 403px;
+  background-image: url(images/screens.png);
+  background-size: cover;
+}
