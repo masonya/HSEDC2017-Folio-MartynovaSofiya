@@ -4,7 +4,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  margin: 0;
 }
 
 * {
@@ -20,12 +19,10 @@ body {
   width: 100%;
   background-color: white;
   height: 60px;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.05);
-
 }
 
 
@@ -52,6 +49,9 @@ h2 {
   line-height: 56px;
 }
 
+.textRight p, .textRight h2, .textCenter p, .textCenter h2 {
+  color: #fff;
+}
 
 a {
     color: inherit;
@@ -125,6 +125,7 @@ a {
   height: 50px;
   line-height: 49px;
   font-size: 17px;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
 }
 
 .blue {
@@ -157,6 +158,7 @@ a {
   height: 1199px;
   background-image: url(images/work.png);
   background-size: cover;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
 }
 
 
@@ -168,4 +170,51 @@ a {
   height: 403px;
   background-image: url(images/screens.png);
   background-size: cover;
+}
+
+.line {
+  width: 30px;
+  height: 4px;
+  background: #50E3C2;
+  position: absolute;
+  margin: 0;
+  margin-top: 61px;
+}
+
+.picLeft {
+
+  position: relative;
+  height: 100%;
+  width: 486px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 193px;
+  margin-left: 160px;
+
+
+}
+
+#mockup1 {
+  background-image: url(images/about.png);
+  background-size: cover;
+  width: 140px;
+  height: 315px;
+  display: flex;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
+}
+
+#mockup2 {
+  background-image: url(images/works.png);
+  background-size: cover;
+  width: 140px;
+  height: 395px;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
+}
+
+#mockup3 {
+  background-image: url(images/work.png);
+  background-size: cover;
+  width: 140px;
+  height: 474px;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,.2);
 }
