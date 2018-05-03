@@ -331,6 +331,68 @@
 }
 
 
+@media all and (max-width: 638px) {
+  body {
+    width: 638px;
+  }
+
+  .menubar {
+    width: 638px;
+  }
+
+
+  .textLeft {
+    left: 114px;
+  }
+
+  .textRight {
+    right: 186px;
+  }
+
+
+  .textCenter {
+    top: 134px;
+    width: 459px;
+  }
+
+  .picRight {
+    top: 482px;
+    left: 114px;
+    width: 413px;
+
+  }
+
+  .picRight2 {
+    top: 506px;
+    left: 122px;
+  }
+
+  .picLeft {
+    height: 474px;
+    width: 440px;
+    margin-top: 456px;
+    margin-left: 99px;
+  }
+
+  #mockup1 {
+    width: 120px;
+    height: 273px;
+  }
+
+  #mockup2 {
+    width: 120px;
+    height: 338px;
+  }
+
+  #mockup3 {
+    width: 120px;
+    height: 406px;
+  }
+
+}
+
+
+
 @media all and (max-width: 400px) {
   body {
     width: 400px;
